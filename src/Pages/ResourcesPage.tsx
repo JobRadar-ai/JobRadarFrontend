@@ -125,13 +125,13 @@ const ResourcePage = () => {
           </div>
           <div>
             <div className='sub_head'>5. Reporting Security Concerns </div>
-            <div className='sub_body'> If you have any security concerns or believe that your data has been compromised, please report it to us immediately at <a href='mailto:@gmail.com' style={{ color: "rgb(0,100,255)", cursor: "pointer" }}>@gmail.com</a>. We take all reports of security incidents seriously and will investigate and address them promptly. </div>
+            <div className='sub_body'> If you have any security concerns or believe that your data has been compromised, please report it to us immediately at <a href='mailto:@gmail.com' style={{ color: "rgb(0,100,255)", cursor: "pointer" }}>jobradar@gmail.com</a>. We take all reports of security incidents seriously and will investigate and address them promptly. </div>
           </div>
         </div>
         <div id='contribute' className='contribute flex flex-col justify-center  items-center gap-[15px] '>
           <div className='page_head gap-[30px]'>
-            <div>Contribute to </div>
-            <a className='hover:text-blue-400 cursor-pointer' href='https://github.com/orgs/Commu-net/repositories' style={{ height: "50px", width: "50px", display: "flex", cursor: "pointer" }}><FaGithub /></a></div>
+            <div>Contribute on </div>
+            <a className='hover:text-blue-400 cursor-pointer' href='https://github.com/JobRadar-ai' style={{ height: "50px", width: "50px", display: "flex", cursor: "pointer" }}><FaGithub /></a></div>
           <div className='page_intro'> is an open-source project, and we welcome contributions from the community to help improve and enhance the platform. Whether you're a developer, designer, tester, or enthusiast, there are many ways you can contribute to 's development and growth. This section outlines how you can get involved and contribute to the project:</div>
           <div>
             <div className='sub_head'> 1. Reporting Issues</div>
