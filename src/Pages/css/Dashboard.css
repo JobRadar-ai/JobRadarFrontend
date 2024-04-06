@@ -1,0 +1,43 @@
+.dashboard {
+   position: relative;
+   top: 80px;
+   height: max(100vh - 80px, 620px);
+   width: 100vw;
+}
+
+@media (max-width: 800px) {
+   .add_btn {
+      background-color: #008EFF;
+      color: white;
+   }
+   .import_btn {
+      background-color: rgb(255, 255, 255);
+      color: #008EFF;
+      border: 1px solid #008EFF;
+   }
+}
+
+@media screen and (min-width:800px) {
+   .dashboard {
+      /* background-color: rgb(254, 226, 226); */
+      height: calc(100%-80px);
+   }
+
+   .dashboard_up {
+      height: 15%;
+      background-color: rgb(255, 255, 255);
+   }
+   .dash_up_left {
+      height: 100%;
+      width: 40%;
+   }
+   .dash_up_right {
+      height: 100%;
+      width: 15%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+   }
+
+
+}
