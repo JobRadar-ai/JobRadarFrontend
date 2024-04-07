@@ -50,7 +50,7 @@ export async function addProfile(values: z.infer<typeof profileSchema>, userId: 
     values.designation = values.designation ? values.designation : " - "
 
     try {
-        let data = await fetch("http://localhost:8000/api/v1/mail", {
+        let data = await fetch("http://localhost:4000/api/v1/mail", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -65,6 +65,7 @@ export async function addProfile(values: z.infer<typeof profileSchema>, userId: 
                 }],
             }),
         })
+        console.log(data)
         let response = await data.json()
         if (response.statusCode === 200) {
             dispatch(setChange(true))

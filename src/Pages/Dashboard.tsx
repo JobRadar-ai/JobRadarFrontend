@@ -31,7 +31,7 @@ export default function Dashboard() {
   const storedSubValue = localStorage.getItem('communet_user_sub');
 
  
-  async function fetchUserData(url = `http://localhost:8000/api/v1/mail?userEmail=${localStorage.getItem('communet_user_email')}`) {
+  async function fetchUserData(url = `http://localhost:4000/api/v1/mail?userEmail=${localStorage.getItem('communet_user_email')}`) {
     try {
       const response = await fetch(url, {
         method: 'GET',
@@ -45,6 +45,7 @@ export default function Dashboard() {
         redirect: 'follow',
         referrerPolicy: 'no-referrer',
       });
+      console.log(response)
       let data = await response.json()
       return data;
     } catch (error) {

@@ -11,7 +11,7 @@ function HeroSection() {
         <div className="hero h-[840px]  w-full flex justify-center items-center flex-col sm:h-[1080px] 2xl:h-[1280px] pb-[200px]">
            <div className="heromain h-[500px] w-full flex justify-center items-center flex-col sm:h-[650px]">
             <div className="h-[40%]  mt-[30px] w-[90%] text-[min(18vw,8.5rem)] font-extrabold flex justify-center items-end sm:mt-[0px] lg:mt-[50px]">
-                <h1><span className="span_1">Job</span>Radar</h1>
+                <h1><span className="span_1">Commu</span>net</h1>
             </div>
             <div className="h-[10%] w-[90%] mt-[30px] text-[min(4vw,1.5rem)] font-medium text-[#838383] flex justify-center items-center text-center sm:w-[70%] lg:w-[50%]">
             Speed your way to the perfect destination: Reach the right place, audience, and opportunities at the right time.

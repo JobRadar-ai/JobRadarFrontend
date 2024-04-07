@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import Jobradar from "../assets/Jobradar.png";
 import "./css/Navbar.css";
 import { useState } from "react";
 import { Spin as Hamburger } from 'hamburger-react'
@@ -28,8 +27,8 @@ function Navbar() {
   return (
     <div className="nav_bar">
       <div>
-        <NavLink to="/">
-          <img src={Jobradar} className="logo h-18 w-18" alt="Jobradar logo" />
+        <NavLink to="/" >
+         <h1 className="text-4xl text-black"><span className="span_1">C</span>N</h1>
         </NavLink>
       </div>
       <div className={isVertVisible ? "vert_nav" : "vert_nav vert_visible"}>

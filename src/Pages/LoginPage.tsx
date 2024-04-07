@@ -44,7 +44,7 @@ export default function LoginPage() {
           </div>
           <div className='log_link'>
             <a
-              href='http://localhost:8000/api/v1/user/auth/google'
+              href='http://localhost:4000/api/v1/user/auth/google'
               className='log_link_t'>
               <div ><FcGoogle className='h-[25px] w-[25px]' /></div>
               <div>Google</div>
@@ -60,7 +60,7 @@ export default function LoginPage() {
                 <div className="flex justify-between space-x-4">
                   
                   <div className="space-y-1">
-                    <h4 className="text-sm font-semibold">Jobradar</h4>
+                    <h4 className="text-sm font-semibold">Communet</h4>
                     <p className="text-sm">
                       You agree to share your email data with us
                     </p>

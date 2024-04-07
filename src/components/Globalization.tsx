@@ -8,7 +8,7 @@ function Globalization() {
             Expand your reach globally
         </div>
         <div className="text h-20 w-3/5 text-gray-500 flex items-end justify-center text-[min(3.5vw,1.4rem)] sm: w-4/5">
-        Amplify your global reach with JobRadar, connecting you to a network of potential collaborators, customers and opportunities.
+        Amplify your global reach with Communet, connecting you to a network of potential collaborators, customers and opportunities.
         </div>
         <div className='globe relative md:top-[95px] h-1/2 w-4/5 bg-center bg-contain flex justify-center items-center lg:mt-[30px] sm: top-[45px]'>
              <Player 
