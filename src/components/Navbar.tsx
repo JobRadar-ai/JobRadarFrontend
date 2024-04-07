@@ -39,6 +39,9 @@ function Navbar() {
           }}>
             Home
           </NavLink>
+          <NavLink to="https://find-jobs-v1.taipy.cloud/" className="nav_option_text" target="_blank">
+             Jobs
+          </NavLink>
           
           <NavLink className="nav_option_text" to="./resources" onClick={() => {
             clickHandler()
